@@ -14,6 +14,9 @@
 		2E6795E71E4A559D00C76BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6795E51E4A559D00C76BBB /* LaunchScreen.storyboard */; };
 		2E6795F21E4A559D00C76BBB /* testingSeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6795F11E4A559D00C76BBB /* testingSeguesTests.swift */; };
 		2E6795FD1E4A559D00C76BBB /* testingSeguesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6795FC1E4A559D00C76BBB /* testingSeguesUITests.swift */; };
+		2E67960B1E4A58FB00C76BBB /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67960A1E4A58FB00C76BBB /* SecondVC.swift */; };
+		2E67960E1E4A592F00C76BBB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67960C1E4A592F00C76BBB /* SecondViewController.swift */; };
+		2E67960F1E4A592F00C76BBB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E67960D1E4A592F00C76BBB /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		2E6795F81E4A559D00C76BBB /* testingSeguesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingSeguesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6795FC1E4A559D00C76BBB /* testingSeguesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingSeguesUITests.swift; sourceTree = "<group>"; };
 		2E6795FE1E4A559D00C76BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E67960A1E4A58FB00C76BBB /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		2E67960C1E4A592F00C76BBB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2E67960D1E4A592F00C76BBB /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				2E6795DC1E4A559D00C76BBB /* AppDelegate.swift */,
 				2E6795DE1E4A559D00C76BBB /* ViewController.swift */,
 				2E6795E01E4A559D00C76BBB /* Main.storyboard */,
+				2E67960A1E4A58FB00C76BBB /* SecondVC.swift */,
+				2E67960C1E4A592F00C76BBB /* SecondViewController.swift */,
+				2E67960D1E4A592F00C76BBB /* SecondViewController.xib */,
 				2E6795E31E4A559D00C76BBB /* Assets.xcassets */,
 				2E6795E51E4A559D00C76BBB /* LaunchScreen.storyboard */,
 				2E6795E81E4A559D00C76BBB /* Info.plist */,
@@ -232,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E67960F1E4A592F00C76BBB /* SecondViewController.xib in Resources */,
 				2E6795E71E4A559D00C76BBB /* LaunchScreen.storyboard in Resources */,
 				2E6795E41E4A559D00C76BBB /* Assets.xcassets in Resources */,
 				2E6795E21E4A559D00C76BBB /* Main.storyboard in Resources */,
@@ -259,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E67960E1E4A592F00C76BBB /* SecondViewController.swift in Sources */,
 				2E6795DF1E4A559D00C76BBB /* ViewController.swift in Sources */,
+				2E67960B1E4A58FB00C76BBB /* SecondVC.swift in Sources */,
 				2E6795DD1E4A559D00C76BBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
